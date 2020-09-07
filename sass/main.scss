@@ -1,6 +1,8 @@
 @import url(../css/fonts.css);
 
+@import "abstracts/variables";
 @import "base/base";
 
+@import "layout/home";
 @import "layout/navbar";
 @import "layout/hero";

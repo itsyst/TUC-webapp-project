@@ -1,0 +1,33 @@
+.hero {
+    background: url('../../assets/img/Background-image.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: $color-white;
+}
+.hero h1,
+h3 {
+    margin: 0.3rem;
+}
+.hero .btn {
+  margin: 1.8rem;
+  background: $color-gradient-sky;
+}
+.hero .btn:hover {
+  background: transparent;
+  border: 1px solid $color-white;
+  color: $color-white;
+}
