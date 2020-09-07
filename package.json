@@ -1,0 +1,16 @@
+{
+  "name": "Webbapplikation-Project",
+  "version": "1.0.0",
+  "description": "TUC-webbapplication",
+  "main": "index.js",
+  "scripts": {
+    "compile:pug": "pug index.pug index.pug index.html -w",
+    "compile:sass": "node sass sass/main.scss css/style -w"
+  },
+  "keywords": [],
+  "author": "Khaled",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
